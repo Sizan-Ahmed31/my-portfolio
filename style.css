@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.first-section {
+    width: 80%;
+    height: 500px;
+    background-image: url("images/wp7453603.jpg");
+}
+
+.nav {
+    height: 110px;
+    width: 100%;
+    background-color: #dfe4ea;
+}
+
+.nav img {
+    width: 160px;
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: inline-block;
+    float: right;
+}
+
+.nav ul li {
+    font-weight: bold;
+    float: left;
+    padding: 42px 12px;
+    font-size: 24px;
+    position: relative;
+}
+
+.nav ul li a {
+    color: black;
+}
+
+.nav ul ul {
+    height: 178px;
+    width: 127px;
+    position: absolute;
+    left: -11px;
+    top: 90px;
+    background-color: #87bef5;
+    display: none;
+}
+
+.nav ul ul li {
+    margin: 0px;
+    padding: 13px 9px;
+    border-bottom: 1px solid #0984e3;
+}
+
+.nav ul ul li:last-child {
+    border-bottom: none;
+}
+
+.nav ul li:hover ul {
+    display: block;
+}
+
+.nav ul ul li:hover {
+    background-color: #0984e3;
+    width: 100%;
+    transition: .5s;
+}
+
+.nav ul ul li a {
+    margin: 0px 13px;
+}
+
+.brdr-bttm:hover {
+    border-bottom: 2px solid #0984e3;
+    color: #0984e3;
+    transition: .3s;
+}
+
+.white:hover {
+    color: white;
+}
+
+article {
+    width: 60%;
+    height: 40%;
+    background-color: #CAD3C8;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 13px grey;
+    display: inline-block;
+    position: relative;
+}
+
+.image {
+    height: 140px;
+    width: 140px;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 27px;
+    float: left;
+}
+
+.paragraph {
+    position: relative;
+    top: 41px;
+    width: 50%;
+    text-align: justify;
+}
+
+.icon ul {
+    text-align: right;
+    position: relative;
+    top: 41px;
+}
+
+.icon ul li {
+    margin-top: 20px;
+}
+
+.icon ul li a {
+    position: relative;
+    font-size: 20px;
+    bottom: 243px;
+    padding: 5px;
+    right: 16px;
+    color: white;
+    border-radius: 5px;
+}
+
+.icon ul li a:hover {
+    background-color: #87bef5;
+    color: #0984e3;
+    transition: .3s;
+}
